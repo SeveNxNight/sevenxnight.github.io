@@ -1,0 +1,23 @@
+.clicker{
+    display: inline-flex;
+    color: #1AFF1A;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+
+.clicker::before{
+    content: "";
+    display: inline-flex;
+    width: 10px;
+    height: 10px;
+    background-color: #1AFF1A;
+    margin-right: 10px;
+    /*border-width: 1px;
+    border-style: solid;
+    border-radius: 30px;*/
+    
+}

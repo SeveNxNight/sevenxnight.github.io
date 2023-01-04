@@ -1,0 +1,22 @@
+.sec1{
+    height:1000px;
+    background: no-repeat url(/assets/img/latest-4043997283.png);
+    background-size: 100%;
+}
+
+.sec1 .bond{
+    display:flex;
+    flex-direction: column;
+    width: 530px;
+    position: relative;
+    top: 166px; left: 93px;
+
+}
+
+.sec1 .navegation{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 45px; 
+    
+}
