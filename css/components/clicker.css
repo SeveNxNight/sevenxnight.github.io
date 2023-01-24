@@ -1,6 +1,6 @@
 .clicker{
     display: inline-flex;
-    color: #1AFF1A;
+    color: #ff0;
     align-items: center;
     font-size: 20px;
     font-weight: 500;
@@ -14,7 +14,7 @@
     display: inline-flex;
     width: 10px;
     height: 10px;
-    background-color: #1AFF1A;
+    background-color: #ff0;
     margin-right: 10px;
     /*border-width: 1px;
     border-style: solid;

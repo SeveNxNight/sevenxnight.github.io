@@ -1,0 +1,46 @@
+.sec2{
+    background-color: #ff0;
+    height: 720px;
+    text-align: center;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 40px;
+    font-weight: 400px;
+    line-height: 40px;
+}
+
+.sec2 .wrapper{
+    position: relative;
+    top:95px;
+}
+
+.relation{
+    display: grid;  
+    justify-content: center;
+    grid-template-columns: 480px 480px;
+    position: relative;
+    top: 102px;
+    row-gap: 20px;
+    font-size: 20px;
+}
+.relation div{
+    display: flex;
+    justify-content: flex-start;
+}
+.relation span{
+    display: flex;
+    background: linear-gradient(
+        to right,
+            aqua 0%,
+            aqua 50%,
+            #ff0 50%,
+            #ff0 100%
+    );
+    height: 35%;
+    width: 330px;
+    border: rgb(36, 35, 35) 5px solid;
+}
+
+.porce{
+    display: flex;
+    flex-direction: column;
+}
