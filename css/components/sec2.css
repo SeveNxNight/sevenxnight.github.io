@@ -22,10 +22,12 @@
     row-gap: 20px;
     font-size: 20px;
 }
-.relation div{
+
+.relation>div{
     display: flex;
     justify-content: flex-start;
 }
+
 .relation span{
     display: flex;
     background: linear-gradient(
@@ -38,9 +40,4 @@
     height: 35%;
     width: 330px;
     border: rgb(36, 35, 35) 5px solid;
-}
-
-.porce{
-    display: flex;
-    flex-direction: column;
 }
