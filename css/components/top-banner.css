@@ -1,10 +1,10 @@
-.sec1{
+.banner{
     height:1000px;
     background: no-repeat url(/assets/img/latest-4043997283.png);
     background-size: 100% 100%;
 }
 
-.sec1 .bond{
+.banner .bond{
     display:flex;
     flex-direction: column;
     width: 530px;
@@ -13,7 +13,7 @@
 
 }
 
-.sec1 .navegation{
+.banner .navegation{
     display: flex;
     justify-content: space-around;
     position: relative;
