@@ -1,16 +1,13 @@
-.sec2{
+.section{
     background-color: #ff0;
     height: 720px;
-    text-align: center;
-    font-family: "Press Start 2P", sans-serif;
+}
+
+.section .main-title{
+    padding-top: 40px;
     font-size: 40px;
     font-weight: 400px;
     line-height: 40px;
-}
-
-.sec2 .wrapper{
-    position: relative;
-    top:95px;
 }
 
 .relation{
@@ -20,15 +17,24 @@
     position: relative;
     top: 102px;
     row-gap: 20px;
-    font-size: 20px;
+
 }
 
 .relation>div{
     display: flex;
     justify-content: flex-start;
+
 }
 
-.relation span{
+.names{
+    font-weight: 400px;
+    font-size: 25px;
+    line-height: 25px;
+    margin-left: 24px;
+
+}
+
+.names span{
     display: flex;
     background: linear-gradient(
         to right,
@@ -40,4 +46,25 @@
     height: 35%;
     width: 330px;
     border: rgb(36, 35, 35) 5px solid;
+    margin-top:16px
+
+}
+
+.section.-second{
+    background-color: black;
+    height: 520px;
+}
+
+.section.-second .main-title{
+    color: #fff;
+    padding-top: 40px;
+
+}
+
+.section.-second img{
+    position: relative;
+    top: 120px; left: 596px;
+    height: 255px; 
+    width: 245px;
+
 }
