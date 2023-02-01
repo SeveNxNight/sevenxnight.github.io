@@ -1,0 +1,347 @@
+.section{
+    background-color: #ff0;
+    height: 720px;
+}
+
+.section .main-title{
+    padding-top: 40px;
+    font-size: 40px;
+    font-weight: 400px;
+    line-height: 40px;
+}
+
+.relation{
+    display: grid;  
+    justify-content: center;
+    grid-template-columns: 480px 480px;
+    position: relative;
+    top: 102px;
+    row-gap: 20px;
+
+}
+
+.relation>div{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.relation>div img{
+    height: 80px;
+    width: 88px;
+
+}
+
+.names{
+    font-weight: 400px;
+    font-size: 25px;
+    line-height: 25px;
+    margin-left: 24px;
+
+}
+
+.names span{
+    display: flex;
+    background: #ff0;
+    height: 35%;
+    width: 330px;
+    border: rgb(36, 35, 35) 5px solid;
+    margin-top:16px;
+
+}
+
+.names span::before{
+    display: flex;
+    content: "";
+    width: 50%;
+    background: aqua;
+    transition: width 0.6s ease-in-out;
+    z-index: 1;
+
+}
+
+.names span:hover::before{
+    width: 90%;
+
+}
+
+
+/*---------------------------------------------SECOND SECTION-------------------------------------------------*/
+
+.section.-second{
+    background-color: black;
+    height: 620px;
+}
+
+.section.-second .main-title{
+    color: #fff;
+    padding-top: 40px;
+    margin-bottom: 150px;
+
+}
+
+.section.-second .wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section.-second .box,.section.section.-second .logo, .section.-second .f, .section.-second .l{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.section.-second .box{
+    background-color: #3A4042;
+    height: 240px;
+    width: 250px;
+    box-shadow: white 5px 5px 0;
+
+}
+
+
+.section.-second .logo.-shadow{
+    background-color: #fff ;
+    height: 200px;
+    width: 205px;
+    clip-path: polygon(2.51% 0.50%, 76.49% 0.5%, 95.49% 23%, 95.49% 98.24%, 28.17% 97.23%, 3.54% 74.84%);
+
+}
+
+.section.-second .logo{
+    background-color: #000;
+    height: 190px;
+    width: 195px;
+    clip-path: polygon(3% 1%, 76% 1%, 95% 23%, 95% 97.74%, 28.29% 96.68%, 4% 74.42%);
+
+}
+
+
+
+.section.-second .f.-shadow{
+    height: 145px;
+    min-width: 190px;
+    background-color: #fff;
+    top: -19px;
+    left: 342px;
+    clip-path: polygon(26% 93%, 6% 94%, 6% 62%, 6% 22%, 6% 4%, 61% 4%, 61% 20%, 26% 21%, 26% 60%)
+
+}
+
+.section.-second .f{
+    height: 147px;
+    min-width: 190px;
+    background-color: #ff0;
+    top: -22px;
+    left: 159px;
+    clip-path: polygon(26% 95%, 6% 95%, 7% 12%, 57% 12%, 58% 29%, 24% 29%, 24% 49%, 48% 50%, 48% 67%, 26% 67%);
+
+}
+
+.section.-second .l.-shadow{
+    height: 156px;
+    min-width: 175px;
+    background-color: #fff;
+    left: -36px;
+    top: 8px;
+    clip-path: polygon(32% 93%, 94% 94%, 93% 56%, 92% 11%, 69% 11%, 70% 74%, 32% 74%);
+
+}
+
+.section.-second .l{
+    height: 160px;
+    min-width: 190px;
+    background-color: #ff0;
+    left: -231px;
+    top: 1px;
+    clip-path: polygon(40% 94%, 93% 94%, 92% 16%, 72% 16%, 72% 77%, 40% 77%);
+
+}
+
+.section.-second .line.-shadow{
+    display: flex;
+    height: 40px;
+    min-width: 120px;
+    background-color: white;
+    rotate: 322deg;
+    position: relative;
+    top: 93px;
+    left: -293px;
+    clip-path: inset(5% 43% 15% 55%);
+
+}
+
+.section.-second img{
+    height: 240px; 
+    width: 250px;
+
+}
+
+.section.-second img:last-child{
+    border: 2px solid #fff;
+}
+
+/*---------------------------------------------------THIRD SECTION-----------------------------------------*/
+
+.section.-third{
+    background-color: #ff0;
+    height: 583px;
+    
+}
+
+.section.-third .main-title{
+    padding-top: 50px;
+    margin-bottom: 45px;
+
+
+}
+
+.section.-third .wrapperTLine{
+    height: 220px;
+
+}
+
+.wrapperTLine #tLine{
+    width: 70%;
+    display: flex;
+    justify-content:space-between;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+
+}
+
+#tBorder{
+    display: flex;
+    height: 5px;
+    width: 80%;
+    background-color: #000;
+    margin:0 auto;
+}
+
+#tBorder::before{
+    height: 6px;
+    width: 20%;
+    content: "";
+    border-bottom: 3px dashed #000;
+    position: relative;
+    bottom: 5px; right: 13%;
+    margin-right: auto;
+
+}
+
+#tBorder::after{
+    height: 6px;
+    width: 20%;
+    content: "";
+    border-bottom: 3px dashed #000;
+    position: relative;
+    bottom: 5px; left: 13%;
+    margin-left: auto;
+}
+
+.timeLine{
+    display: flex;
+    justify-content: space-evenly;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+#tl1867 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    margin-top: 20px;  
+
+}
+
+#tl1867::after{
+    display: flex;
+    content: "";
+    height: 22px;
+    width: 10px;
+    border-right: 3px dashed #000;
+    position: relative;
+    bottom: 130px; left: 40px;
+
+}
+
+#tl1888 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    margin-top: 20px;
+
+}
+
+#tl1888::after{
+    display: flex;
+    content: "";
+    height: 22px;
+    width: 10px;
+    border-right: 3px dashed #000;
+    position: relative;
+    bottom: 130px; left: 40px;
+
+}
+
+#tl1983 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    margin-top: 20px;
+
+}
+
+#tl1983::after{
+    display: flex;
+    content: "";
+    height: 22px;
+    width: 10px;
+    border-right: 3px dashed #000;
+    position: relative;
+    bottom: 130px; left: 40px;
+
+}
+
+#tl1987 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    margin-top: 20px;
+
+
+}
+
+#tl1987::after{
+    display: flex;
+    content: "";
+    height: 22px;
+    width: 10px;
+    border-right: 3px dashed #000;
+    position: relative;
+    bottom: 130px; left: 40px;
+
+}
+
+.section.-third #hDio{
+    text-align: left;
+    height: 140px;
+    margin: 0px 80px 50px 80px;
+}
+
+.section.-third p{
+    font-size: 0.9rem;
+    font-weight: bold;
+    line-height: 1.2rem;
+
+}
+  
