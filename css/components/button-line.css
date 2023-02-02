@@ -1,0 +1,46 @@
+.button-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width:50px;
+    background-color: #000;
+    box-shadow: 3px 3px 0 #3A4042;
+    transition: transform 0.1s linear;
+    z-index: 1;
+}
+
+.button-line:hover{
+    transform: scale(1.1);
+    background-color: #3A4042;
+    box-shadow: 3px 3px 0 #000;
+    border-radius: 10%;
+}
+
+
+.button-line>#-first{
+    height: 37px;
+    width: 37px;
+    background-color: #ff0;
+    clip-path: polygon(100% 0, 100% 100%, 0% 50%, 0 50%);
+
+}
+
+.button-line>#-second{
+    height: 37px;
+    width: 37px;
+    background-color: #ff0;
+    clip-path: polygon(0% 0, 100% 50%, 0% 100%, 0 50%);
+}
+
+.button-line.-left{
+    position: relative; 
+    margin: 60px 0 -110px 0;
+
+}
+
+.button-line.-right{
+    position: relative; 
+    margin:60px 0 -100px 100px;
+
+}
