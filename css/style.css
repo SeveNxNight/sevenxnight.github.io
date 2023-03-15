@@ -261,3 +261,71 @@ body{
 
 }
 
+/*----------------------------------------------------------------FOURTH SECTION---------------------------------------------*/
+.section.-fourth > h2{
+  padding-top: 100px;
+  margin-bottom: 40px;
+}
+
+.formContainer{
+  margin-left: 70px;
+  text-align: left;
+}
+
+.formContainer > label{
+  display: block;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.formContainer > input{
+  width: 95%;
+  height: 40px;
+  border: 1px solid #000;
+  margin-bottom: 20px;
+}
+
+.formContainer > textarea{
+  width: 95%;
+  height: 270px;
+  border: 1px solid #000;
+  margin-bottom: 20px;
+  resize: none;
+}
+
+.formContainer > input[type="submit"]{
+  height: 50px;
+  background-color: #ff0;
+  color: #000;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 40px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+
+/*--------------------------------------------------------------------FOOTER---------------------------------------------*/
+
+.footer{
+  height: 100px;
+  text-align: center;
+  background-color: #000;
+}
+
+.footer > img{
+  width: 45px;
+  height: 45px;
+  margin: 28px 0;
+  cursor: pointer;
+}
+
+.footer > img:first-child{
+  margin-right: 40px;
+}
+
+.footer > img:last-child{
+  margin-left: 40px;
+}
